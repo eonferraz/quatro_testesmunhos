@@ -198,12 +198,29 @@
       row.dataset.order = event.order;
       row.dataset.phase = event.phase || "";
       row.classList.toggle("is-phase-start", event.phase !== previousPhase);
-      row.querySelector(".event-order").textContent = `Evento ${String(event.order).padStart(3, "0")}`;
+      const isParallel = countReferences(event) >= 2;
+      row.classList.toggle("is-parallel", isParallel);
+      const carousel = row.querySelector(".gospel-carousel");
+      if (isParallel) {
+        carousel.tabIndex = 0;
+        carousel.setAttribute(
+          "aria-label",
+          "Evangelhos paralelos; deslize lateralmente para alternar"
+        );
+        const activeBook = document.createElement("span");
+        activeBook.className = "mobile-active-book";
+        activeBook.setAttribute("aria-live", "polite");
+        row.querySelector(".event-cell").append(activeBook);
+      }
+      const eventOrder = row.querySelector(".event-order");
+      eventOrder.textContent = String(event.order).padStart(3, "0");
+      eventOrder.setAttribute("aria-label", `Evento ${event.order}`);
       row.querySelector(".event-title").textContent = event.event;
       row.querySelector(".phase-label").textContent = event.phase || "Sem fase definida";
       row.querySelector(".event-note").textContent = event.note || "";
       BOOKS.forEach(book => {
         const cell = row.querySelector(`[data-book="${book}"]`);
+        cell.classList.toggle("has-passage", Boolean(event.passages[book]));
         const mobileLabel = document.createElement("h3");
         mobileLabel.className = "mobile-book-label";
         mobileLabel.textContent = BOOK_NAMES[book];
@@ -211,13 +228,51 @@
           ? renderPassage(event.passages[book], book)
           : createMissingPassage(book));
       });
+      if (isParallel) setupMobileCarousel(row, carousel);
       fragment.append(row);
       previousPhase = event.phase;
     });
     elements.timelineBody.replaceChildren(fragment);
     elements.emptyState.hidden = state.filteredEvents.length !== 0;
     buildPhaseNavigation();
-    requestAnimationFrame(updateScrollState);
+    requestAnimationFrame(() => {
+      syncMobileStickyOffsets();
+      updateScrollState();
+    });
+  }
+
+  function setupMobileCarousel(row, carousel) {
+    const reportedCells = [...carousel.querySelectorAll(".reference-cell.has-passage")];
+    const activeBook = row.querySelector(".mobile-active-book");
+    if (!reportedCells.length || !activeBook) return;
+
+    const updateActiveBook = () => {
+      const carouselLeft = carousel.getBoundingClientRect().left;
+      const activeCell = reportedCells.reduce((closest, cell) =>
+        Math.abs(cell.getBoundingClientRect().left - carouselLeft) <
+        Math.abs(closest.getBoundingClientRect().left - carouselLeft) ? cell : closest
+      );
+      activeBook.textContent = BOOK_NAMES[activeCell.dataset.book];
+      activeBook.dataset.book = activeCell.dataset.book;
+    };
+
+    updateActiveBook();
+    carousel.addEventListener("scroll", updateActiveBook, { passive: true });
+  }
+
+  function syncMobileStickyOffsets() {
+    const isMobile = window.matchMedia("(max-width: 760px)").matches;
+    document.querySelectorAll(".timeline-row").forEach(row => {
+      if (!isMobile) {
+        row.style.removeProperty("--mobile-event-height");
+        return;
+      }
+      const eventCell = row.querySelector(".event-cell");
+      row.style.setProperty(
+        "--mobile-event-height",
+        `${Math.ceil(eventCell.getBoundingClientRect().height)}px`
+      );
+    });
   }
 
   function buildPhaseNavigation() {
@@ -278,6 +333,7 @@
   window.addEventListener("scroll", updateScrollState, { passive: true });
   window.addEventListener("resize", () => {
     syncHeaderHeight();
+    syncMobileStickyOffsets();
     updateScrollState();
   });
   new ResizeObserver(() => {

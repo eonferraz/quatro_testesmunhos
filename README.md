@@ -6,7 +6,21 @@ Aplicação estática em HTML, CSS e JavaScript puro que apresenta, em ordem cro
 
 O navegador normalmente bloqueia o carregamento de JSON por `fetch` quando o `index.html` é aberto diretamente por `file://`. Por isso, execute o projeto por um servidor HTTP local.
 
-No Windows, dê dois cliques em `abrir-servidor.bat` e acesse `http://localhost:8000`. É necessário ter Python instalado. Como alternativa, em um terminal na pasta do projeto, execute:
+No Windows, dê dois cliques em `abrir-servidor.bat` e acesse `http://localhost:8000`. O lançador cria o ambiente virtual `.venv`, instala as dependências e inicia o Flask. É necessário ter Python instalado.
+
+Para executar pelo PowerShell e escolher outra porta:
+
+```powershell
+.\executar-local.ps1 -Port 8080
+```
+
+Depois da primeira execução, use `-NoInstall` para pular a instalação das dependências:
+
+```powershell
+.\executar-local.ps1 -NoInstall
+```
+
+Como alternativa sem Flask, em um terminal na pasta do projeto, execute:
 
 ```sh
 python -m http.server 8000

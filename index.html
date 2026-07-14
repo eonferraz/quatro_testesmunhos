@@ -18,22 +18,27 @@
       <label class="search-field">
         <span class="sr-only">Pesquisar eventos, referências ou texto bíblico</span>
         <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
-        <input id="search-input" type="search" placeholder="Buscar evento, referência ou texto">
+        <input id="search-input" type="search" placeholder="Buscar">
       </label>
 
-      <label class="select-field">
+      <label class="select-field" title="Filtrar por fase">
         <span class="sr-only">Filtrar por fase</span>
+        <svg class="control-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
         <select id="phase-filter">
           <option value="">Todas as fases</option>
         </select>
       </label>
 
-      <label class="toggle">
+      <label class="toggle" title="Somente paralelos">
         <input id="parallel-filter" type="checkbox">
-        <span>Somente paralelos</span>
+        <svg class="control-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h6v14H4zM14 5h6v14h-6zM10 9h4M10 15h4"/></svg>
+        <span class="control-text">Somente paralelos</span>
       </label>
 
-      <button id="clear-filters" class="button button-ghost" type="button">Limpar</button>
+      <button id="clear-filters" class="button button-ghost" type="button" aria-label="Limpar filtros" title="Limpar filtros">
+        <svg class="control-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></svg>
+        <span class="control-text">Limpar</span>
+      </button>
 
     </div>
 
@@ -45,7 +50,8 @@
         <div id="timeline-header-scroller" class="timeline-header-scroller">
           <div class="timeline-grid timeline-grid-header" role="row">
             <div class="header-cell event-header" role="columnheader">
-              <span>Evento</span>
+              <span aria-hidden="true">Nº</span>
+              <span class="sr-only">Número do evento</span>
             </div>
             <div class="header-cell gospel-header gospel-mateus" role="columnheader">
               <span>Mateus</span>
@@ -98,10 +104,12 @@
         <span class="phase-label"></span>
         <p class="event-note"></p>
       </div>
-      <div class="reference-cell" data-book="mateus" role="cell"></div>
-      <div class="reference-cell" data-book="marcos" role="cell"></div>
-      <div class="reference-cell" data-book="lucas" role="cell"></div>
-      <div class="reference-cell" data-book="joao" role="cell"></div>
+      <div class="gospel-carousel" role="group" aria-label="Evangelhos; deslize lateralmente para alternar">
+        <div class="reference-cell" data-book="mateus" role="cell"></div>
+        <div class="reference-cell" data-book="marcos" role="cell"></div>
+        <div class="reference-cell" data-book="lucas" role="cell"></div>
+        <div class="reference-cell" data-book="joao" role="cell"></div>
+      </div>
     </article>
   </template>
 
