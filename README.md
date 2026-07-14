@@ -12,6 +12,26 @@ No Windows, dê dois cliques em `abrir-servidor.bat` e acesse `http://localhost:
 python -m http.server 8000
 ```
 
+### Flask
+
+Instale as dependências e inicie a aplicação:
+
+```sh
+python -m pip install -r requirements.txt
+python app.py
+```
+
+A aplicação usa a variável de ambiente `PORT` quando ela estiver definida e expõe
+`GET /health` para verificações de disponibilidade. Em produção, o ponto de entrada
+WSGI é `app:app`; o `Procfile` e o `Dockerfile` já iniciam o Gunicorn com esse objeto.
+
+Para executar em um ambiente compatível com Docker, incluindo o Runway:
+
+```sh
+docker build -t timeline-evangelhos .
+docker run --rm -p 8000:8000 -e PORT=8000 timeline-evangelhos
+```
+
 Os dados são carregados automaticamente, inclusive ao abrir `index.html` diretamente. O arquivo
 `data/events-data.js` é a cópia compatível com `file://`; ao atualizar `data/events.json`, essa cópia
 também deve ser regenerada.
