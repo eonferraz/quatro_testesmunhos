@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Timeline comparativa e cronológica com os textos integrais dos Evangelhos de Mateus, Marcos, Lucas e João.">
+  <title>Timeline dos Evangelhos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <h1 id="page-title">Timeline comparativa</h1>
+      <p id="page-subtitle"></p>
+    </div>
+
+    <div class="toolbar" aria-label="Ferramentas da timeline">
+      <label class="search-field">
+        <span class="sr-only">Pesquisar eventos, referências ou texto bíblico</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m1.35-5.65a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
+        <input id="search-input" type="search" placeholder="Buscar evento, referência ou texto">
+      </label>
+
+      <label class="select-field">
+        <span class="sr-only">Filtrar por fase</span>
+        <select id="phase-filter">
+          <option value="">Todas as fases</option>
+        </select>
+      </label>
+
+      <label class="toggle">
+        <input id="parallel-filter" type="checkbox">
+        <span>Somente paralelos</span>
+      </label>
+
+      <button id="clear-filters" class="button button-ghost" type="button">Limpar</button>
+
+    </div>
+
+  </header>
+
+  <main class="page-shell">
+    <section class="timeline-panel" aria-label="Timeline dos Evangelhos">
+      <div class="timeline-header-viewport">
+        <div id="timeline-header-scroller" class="timeline-header-scroller">
+          <div class="timeline-grid timeline-grid-header" role="row">
+            <div class="header-cell event-header" role="columnheader">
+              <span>Evento</span>
+            </div>
+            <div class="header-cell gospel-header gospel-mateus" role="columnheader">
+              <span>Mateus</span>
+            </div>
+            <div class="header-cell gospel-header gospel-marcos" role="columnheader">
+              <span>Marcos</span>
+            </div>
+            <div class="header-cell gospel-header gospel-lucas" role="columnheader">
+              <span>Lucas</span>
+            </div>
+            <div class="header-cell gospel-header gospel-joao" role="columnheader">
+              <span>João</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="timeline-body" class="timeline-body" role="rowgroup"></div>
+
+      <div id="empty-state" class="empty-state" hidden>
+        <h2>Nenhum evento encontrado</h2>
+        <p>Altere a busca ou remova os filtros.</p>
+      </div>
+
+      <div id="error-state" class="error-state" hidden>
+        <h2>Não foi possível carregar os dados automaticamente</h2>
+        <p>
+          Verifique se a pasta <strong>data</strong> está junto ao arquivo HTML e tente novamente.
+        </p>
+        <button id="retry-load" class="button button-ghost" type="button">Tentar novamente</button>
+      </div>
+    </section>
+  </main>
+
+  <aside class="scroll-rail" aria-label="Navegação pelas fases">
+    <div class="rail-track"><span id="rail-progress"></span></div>
+    <nav id="phase-navigation"></nav>
+  </aside>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Voltar ao início" title="Voltar ao início">
+    ↑
+  </button>
+
+  <template id="event-row-template">
+    <article class="timeline-grid timeline-row" role="row">
+      <div class="event-cell" role="rowheader">
+        <span class="timeline-dot" aria-hidden="true"></span>
+        <span class="event-order"></span>
+        <h2 class="event-title"></h2>
+        <span class="phase-label"></span>
+        <p class="event-note"></p>
+      </div>
+      <div class="reference-cell" data-book="mateus" role="cell"></div>
+      <div class="reference-cell" data-book="marcos" role="cell"></div>
+      <div class="reference-cell" data-book="lucas" role="cell"></div>
+      <div class="reference-cell" data-book="joao" role="cell"></div>
+    </article>
+  </template>
+
+  <script src="data/events-data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

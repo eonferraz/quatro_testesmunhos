@@ -1,0 +1,1844 @@
+{
+  "meta": {
+    "title": "Timeline",
+    "subtitle": "",
+    "language": "pt-BR",
+    "version": "1.0.0",
+    "generatedAt": "2026-07-13",
+    "eventCount": 163,
+    "books": [
+      {
+        "key": "mateus",
+        "label": "Mateus",
+        "short": "Mt"
+      },
+      {
+        "key": "marcos",
+        "label": "Marcos",
+        "short": "Mc"
+      },
+      {
+        "key": "lucas",
+        "label": "Lucas",
+        "short": "Lc"
+      },
+      {
+        "key": "joao",
+        "label": "João",
+        "short": "Jo"
+      }
+    ],
+    "methodology": "A ordem é uma harmonização de estudo. Em alguns trechos, especialmente nos discursos e nas viagens finais, há mais de uma proposta cronológica possível.",
+    "sources": [
+      {
+        "name": "Table of Gospel Parallels — Bible Researcher",
+        "url": "https://www.bible-researcher.com/parallels.html",
+        "note": "Tabela de paralelos baseada na Synopsis Quattuor Evangeliorum de Kurt Aland."
+      },
+      {
+        "name": "Harmony of the Gospels — Blue Letter Bible",
+        "url": "https://www.blueletterbible.org/study/harmony/index.cfm"
+      },
+      {
+        "name": "Harmony of the Events of Holy Week — ESV",
+        "url": "https://www.esv.org/resources/esv-global-study-bible/chart-40-04/"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event": "No Princípio",
+      "order": 1,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 1:1-18"
+      }
+    },
+    {
+      "event": "Genealogia de Jesus por Jacó",
+      "order": 2,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "Mt 1:1-17",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O anúncio do nascimento de João Batista",
+      "order": 3,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 1:5-25",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O anúncio do nascimento de Jesus a Maria",
+      "order": 4,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 1:26-38",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O anúncio do nascimento de Jesus a José",
+      "order": 5,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "Mt 1:18-25",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Maria visita Isabel",
+      "order": 6,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 1:39-45",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O cântico de Maria",
+      "order": 7,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 1:46-56",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Nascimento de João Batista e profecia de Zacarias",
+      "order": 8,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 1:57-80",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Nascimento de Jesus",
+      "order": 9,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "Mt 1:18-25",
+        "marcos": "",
+        "lucas": "Lc 2:1-20",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Circuncisão e apresentação de Jesus no templo",
+      "order": 10,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 2:21-38",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Os Magos vieram do Oriente",
+      "order": 11,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "Mt 2:1-12",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Fuga para o Egito",
+      "order": 12,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "Mt 2:13-23",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Infância de Jesus e visita ao templo aos doze anos",
+      "order": 13,
+      "phase": "Prólogo, nascimento e infância",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 2:39-52",
+        "joao": ""
+      }
+    },
+    {
+      "event": "João Batista prepara o caminho",
+      "order": 14,
+      "phase": "Preparação para o ministério",
+      "references": {
+        "mateus": "Mt 3:1-12",
+        "marcos": "Mc 1:1-8",
+        "lucas": "Lc 3:1-20",
+        "joao": "Jo 1:19-28"
+      }
+    },
+    {
+      "event": "Jesus foi batizado",
+      "order": 15,
+      "phase": "Preparação para o ministério",
+      "references": {
+        "mateus": "Mt 3:13-17",
+        "marcos": "Mc 1:9-11",
+        "lucas": "Lc 3:21-22",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Genealogia de Jesus por Heli",
+      "order": 16,
+      "phase": "Preparação para o ministério",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 3:23-38",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Satanás tentou Jesus",
+      "order": 17,
+      "phase": "Preparação para o ministério",
+      "references": {
+        "mateus": "Mt 4:1-11",
+        "marcos": "Mc 1:12-13",
+        "lucas": "Lc 4:1-13",
+        "joao": ""
+      }
+    },
+    {
+      "event": "João Batista identifica Jesus como o Cordeiro de Deus",
+      "order": 18,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 1:29-34"
+      }
+    },
+    {
+      "event": "Os primeiros discípulos seguem Jesus",
+      "order": 19,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 1:35-51"
+      }
+    },
+    {
+      "event": "Jesus transformou água em vinho",
+      "order": 20,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 2:1-12"
+      }
+    },
+    {
+      "event": "Primeira purificação do templo",
+      "order": 21,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 2:13-22"
+      }
+    },
+    {
+      "event": "Jesus encontrou-se com Nicodemos",
+      "order": 22,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 3:1-21"
+      }
+    },
+    {
+      "event": "João Batista exaltou Jesus",
+      "order": 23,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 3:22-36"
+      }
+    },
+    {
+      "event": "Cristo encontrou a mulher samaritana",
+      "order": 24,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 4:1-26"
+      }
+    },
+    {
+      "event": "Jesus ensinou sobre a colheita",
+      "order": 25,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 4:27-38"
+      }
+    },
+    {
+      "event": "Os samaritanos creram em Jesus",
+      "order": 26,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 4:39-42"
+      }
+    },
+    {
+      "event": "Jesus foi recebido na Galileia",
+      "order": 27,
+      "phase": "Início do ministério público",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 4:43-45"
+      }
+    },
+    {
+      "event": "Cristo começou a ensinar nas sinagogas",
+      "order": 28,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 4:12-17",
+        "marcos": "Mc 1:14-15",
+        "lucas": "Lc 4:14-15",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus é rejeitado em Nazaré no início do ministério",
+      "order": 29,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 4:16-30",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou o filho do oficial",
+      "order": 30,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 4:46-54"
+      }
+    },
+    {
+      "event": "Chamado dos pescadores",
+      "order": 31,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 4:18-22",
+        "marcos": "Mc 1:16-20",
+        "lucas": "Lc 5:1-11",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo expulsou um demônio em Cafarnaum",
+      "order": 32,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 1:21-28",
+        "lucas": "Lc 4:31-37",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou a sogra de Pedro e outros",
+      "order": 33,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 8:14-17",
+        "marcos": "Mc 1:29-34",
+        "lucas": "Lc 4:38-41",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo purificou um leproso",
+      "order": 34,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 8:1-4",
+        "marcos": "Mc 1:40-45",
+        "lucas": "Lc 5:12-16",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou um paralítico",
+      "order": 35,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 9:1-8",
+        "marcos": "Mc 2:1-12",
+        "lucas": "Lc 5:17-26",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O chamado de Mateus",
+      "order": 36,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 9:9-13",
+        "marcos": "Mc 2:13-17",
+        "lucas": "Lc 5:27-32",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Contenda sobre jejum",
+      "order": 37,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 9:14-17",
+        "marcos": "Mc 2:18-22",
+        "lucas": "Lc 5:33-39",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou o paralítico no tanque de Betesda",
+      "order": 38,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 5:1-15"
+      }
+    },
+    {
+      "event": "Cristo defendeu sua autoridade",
+      "order": 39,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 5:16-47"
+      }
+    },
+    {
+      "event": "Controvérsias do sábado e cura do homem da mão ressequida",
+      "order": 40,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 12:1-14",
+        "marcos": "Mc 2:23–3:6",
+        "lucas": "Lc 6:1-11",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo escolheu os doze apóstolos",
+      "order": 41,
+      "phase": "Ministério na Galileia",
+      "references": {
+        "mateus": "Mt 10:1-4",
+        "marcos": "Mc 3:13-19",
+        "lucas": "Lc 6:12-16",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Sermão do Monte e Sermão da Planície",
+      "order": 42,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 5:1–7:29",
+        "marcos": "",
+        "lucas": "Lc 6:17-49",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou o servo do centurião",
+      "order": 43,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 8:5-13",
+        "marcos": "",
+        "lucas": "Lc 7:1-10",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo ressuscitou o filho da viúva de Naim",
+      "order": 44,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 7:11-17",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus respondeu aos mensageiros de João Batista",
+      "order": 45,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 11:2-19",
+        "marcos": "",
+        "lucas": "Lc 7:18-35",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A mulher pecadora ungiu Jesus",
+      "order": 46,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 7:36-50",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus percorre cidades e aldeias com os discípulos",
+      "order": 47,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 9:35-38",
+        "marcos": "Mc 6:6",
+        "lucas": "Lc 8:1-3",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Os fariseus acusaram Jesus de expulsar demônios por Belzebu",
+      "order": 48,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 12:22-37",
+        "marcos": "Mc 3:20-30",
+        "lucas": "Lc 11:14-23",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A família de Jesus procurou vê-lo",
+      "order": 49,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 12:46-50",
+        "marcos": "Mc 3:31-35",
+        "lucas": "Lc 8:19-21",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola do semeador",
+      "order": 50,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 13:1-23",
+        "marcos": "Mc 4:1-20",
+        "lucas": "Lc 8:4-15",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábolas de Jesus sobre o Reino",
+      "order": 51,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 13:24-53",
+        "marcos": "Mc 4:26-34",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus acalmou a tempestade",
+      "order": 52,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 8:23-27",
+        "marcos": "Mc 4:35-41",
+        "lucas": "Lc 8:22-25",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo libertou os endemoninhados gadarenos",
+      "order": 53,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 8:28-34",
+        "marcos": "Mc 5:1-20",
+        "lucas": "Lc 8:26-39",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou a mulher com fluxo de sangue e ressuscitou a filha de Jairo",
+      "order": 54,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 9:18-26",
+        "marcos": "Mc 5:21-43",
+        "lucas": "Lc 8:40-56",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Dois cegos e um mudo foram curados",
+      "order": 55,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 9:27-34",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus foi rejeitado em Nazaré",
+      "order": 56,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 13:54-58",
+        "marcos": "Mc 6:1-6",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo enviou os doze para pregar",
+      "order": 57,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 10:5-15",
+        "marcos": "Mc 6:7-13",
+        "lucas": "Lc 9:1-6",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Morte de João Batista",
+      "order": 58,
+      "phase": "Expansão do ministério e ensino em parábolas",
+      "references": {
+        "mateus": "Mt 14:1-12",
+        "marcos": "Mc 6:14-29",
+        "lucas": "Lc 9:7-9",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus alimentou os cinco mil",
+      "order": 59,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 14:13-21",
+        "marcos": "Mc 6:30-44",
+        "lucas": "Lc 9:10-17",
+        "joao": "Jo 6:1-13"
+      }
+    },
+    {
+      "event": "Cristo andou sobre o mar",
+      "order": 60,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 14:22-33",
+        "marcos": "Mc 6:45-52",
+        "lucas": "",
+        "joao": "Jo 6:15-21"
+      }
+    },
+    {
+      "event": "Jesus curou muitos em Genesaré",
+      "order": 61,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 14:34-36",
+        "marcos": "Mc 6:53-56",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo é o Pão da Vida",
+      "order": 62,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 6:22-71"
+      }
+    },
+    {
+      "event": "Jesus respondeu às acusações de legalismo",
+      "order": 63,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 15:1-20",
+        "marcos": "Mc 7:1-23",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo libertou a filha de uma mulher siro-fenícia",
+      "order": 64,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 15:21-28",
+        "marcos": "Mc 7:24-30",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus curou muitos na Decápolis",
+      "order": 65,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 15:29-31",
+        "marcos": "Mc 7:31-37",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus alimenta quatro mil",
+      "order": 66,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 15:32-39",
+        "marcos": "Mc 8:1-10",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus advertiu contra o fermento dos fariseus",
+      "order": 67,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 16:1-12",
+        "marcos": "Mc 8:11-21",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou um cego em Betsaida",
+      "order": 68,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 8:22-26",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Pedro declarou que Jesus é o Cristo",
+      "order": 69,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 16:13-20",
+        "marcos": "Mc 8:27-30",
+        "lucas": "Lc 9:18-21",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Primeira predição da morte e ressurreição",
+      "order": 70,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 16:21-28",
+        "marcos": "Mc 8:31–9:1",
+        "lucas": "Lc 9:22-27",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A Transfiguração",
+      "order": 71,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 17:1-13",
+        "marcos": "Mc 9:2-13",
+        "lucas": "Lc 9:28-36",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou um jovem possesso",
+      "order": 72,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 17:14-21",
+        "marcos": "Mc 9:14-29",
+        "lucas": "Lc 9:37-43",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus pagou o imposto do templo",
+      "order": 73,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 17:24-27",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo ensinou sobre humildade",
+      "order": 74,
+      "phase": "Sinais, oposição e revelação do Messias",
+      "references": {
+        "mateus": "Mt 18:1-35",
+        "marcos": "Mc 9:33-50",
+        "lucas": "Lc 9:46-50",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus na Festa dos Tabernáculos",
+      "order": 75,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 7:1-52"
+      }
+    },
+    {
+      "event": "A mulher apanhada em adultério",
+      "order": 76,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 7:53–8:11"
+      }
+    },
+    {
+      "event": "Jesus declarou ser a Luz do mundo",
+      "order": 77,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 8:12-20"
+      }
+    },
+    {
+      "event": "Contenda com os fariseus sobre a verdade",
+      "order": 78,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 8:21-59"
+      }
+    },
+    {
+      "event": "Cristo curou o cego de nascença",
+      "order": 79,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 9:1-41"
+      }
+    },
+    {
+      "event": "Jesus é o Bom Pastor",
+      "order": 80,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 10:1-21"
+      }
+    },
+    {
+      "event": "A missão dos setenta discípulos",
+      "order": 81,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 10:1-24",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola do bom samaritano",
+      "order": 82,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 10:25-37",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo visitou Marta e Maria",
+      "order": 83,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 10:38-42",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus ensina sobre a oração",
+      "order": 84,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "Mt 6:5-15",
+        "marcos": "",
+        "lucas": "Lc 11:1-13",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo denunciou os fariseus e escribas",
+      "order": 85,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "Mt 23:1-36",
+        "marcos": "",
+        "lucas": "Lc 11:37-54",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Advertência contra a avareza e confiança na providência",
+      "order": 86,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "Mt 6:19-34",
+        "marcos": "",
+        "lucas": "Lc 12:13-34",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo exortou a vigilância",
+      "order": 87,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 12:35-59",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Arrependimento e parábola da figueira estéril",
+      "order": 88,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 13:1-9",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou a mulher encurvada",
+      "order": 89,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 13:10-21",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cura no sábado, humildade e parábola da grande ceia",
+      "order": 90,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 14:1-24",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus expôs o custo do discipulado",
+      "order": 91,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 14:25-35",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábolas da ovelha perdida, moeda perdida e filho pródigo",
+      "order": 92,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 15:1-32",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola do administrador infiel",
+      "order": 93,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 16:1-13",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus ensinou sobre o rico e Lázaro",
+      "order": 94,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 16:19-31",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou dez leprosos",
+      "order": 95,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 17:11-19",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábolas do juiz iníquo e do fariseu e o publicano",
+      "order": 96,
+      "phase": "Judeia, Pereia e caminho para Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 18:1-14",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus abençoou as crianças",
+      "order": 97,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 19:13-15",
+        "marcos": "Mc 10:13-16",
+        "lucas": "Lc 18:15-17",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo aconselhou o jovem rico",
+      "order": 98,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 19:16-30",
+        "marcos": "Mc 10:17-31",
+        "lucas": "Lc 18:18-30",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola dos trabalhadores na vinha",
+      "order": 99,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 20:1-16",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus predisse sua morte pela terceira vez",
+      "order": 100,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 20:17-19",
+        "marcos": "Mc 10:32-34",
+        "lucas": "Lc 18:31-34",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A mãe de Tiago e João pediu lugares de honra",
+      "order": 101,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 20:20-28",
+        "marcos": "Mc 10:35-45",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo curou Bartimeu e outro cego",
+      "order": 102,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "Mt 20:29-34",
+        "marcos": "Mc 10:46-52",
+        "lucas": "Lc 18:35-43",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus encontra Zaqueu",
+      "order": 103,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 19:1-10",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola das minas",
+      "order": 104,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "Lc 19:11-27",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus na Festa da Dedicação",
+      "order": 105,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 10:22-39"
+      }
+    },
+    {
+      "event": "Jesus retira-se para além do Jordão",
+      "order": 106,
+      "phase": "Última viagem e chegada a Jerusalém",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 10:40-42"
+      }
+    },
+    {
+      "event": "Jesus ressuscita Lázaro",
+      "order": 107,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 11:1-44"
+      }
+    },
+    {
+      "event": "Líderes decidem matar Jesus",
+      "note": "A decisão é apresentada por João após a ressurreição de Lázaro.",
+      "order": 108,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 11:45-57"
+      }
+    },
+    {
+      "event": "Unção de Jesus por Maria de Betânia",
+      "order": 109,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 26:6-13",
+        "marcos": "Mc 14:3-9",
+        "lucas": "",
+        "joao": "Jo 12:1-8"
+      }
+    },
+    {
+      "event": "Entrada Triunfal em Jerusalém",
+      "order": 110,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:1-11",
+        "marcos": "Mc 11:1-11",
+        "lucas": "Lc 19:28-40",
+        "joao": "Jo 12:12-19"
+      }
+    },
+    {
+      "event": "Jesus chora sobre Jerusalém",
+      "order": 111,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 23:37-39",
+        "marcos": "",
+        "lucas": "Lc 19:41-44",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus visita o templo e retorna a Betânia",
+      "order": 112,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 11:11",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus amaldiçoa a figueira",
+      "order": 113,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:18-19",
+        "marcos": "Mc 11:12-14",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus purifica o templo pela última vez",
+      "order": 114,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:12-17",
+        "marcos": "Mc 11:15-19",
+        "lucas": "Lc 19:45-48",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A figueira aparece seca e Jesus ensina sobre fé",
+      "order": 115,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:20-22",
+        "marcos": "Mc 11:20-26",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A autoridade de Jesus é questionada",
+      "order": 116,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:23-27",
+        "marcos": "Mc 11:27-33",
+        "lucas": "Lc 20:1-8",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola dos dois filhos",
+      "order": 117,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:28-32",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola dos lavradores maus",
+      "order": 118,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 21:33-46",
+        "marcos": "Mc 12:1-12",
+        "lucas": "Lc 20:9-19",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Pergunta sobre tributo a César",
+      "order": 119,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 22:15-22",
+        "marcos": "Mc 12:13-17",
+        "lucas": "Lc 20:20-26",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo ensinou sobre a ressurreição",
+      "order": 120,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 22:23-33",
+        "marcos": "Mc 12:18-27",
+        "lucas": "Lc 20:27-40",
+        "joao": ""
+      }
+    },
+    {
+      "event": "O maior mandamento",
+      "order": 121,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 22:34-40",
+        "marcos": "Mc 12:28-34",
+        "lucas": "Lc 10:25-28",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus advertiu sobre os escribas",
+      "order": 122,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 23:1-12",
+        "marcos": "Mc 12:38-40",
+        "lucas": "Lc 20:45-47",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo condenou a hipocrisia dos fariseus",
+      "order": 123,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 23:13-36",
+        "marcos": "",
+        "lucas": "Lc 11:37-54",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A oferta da viúva",
+      "order": 124,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 12:41-44",
+        "lucas": "Lc 21:1-4",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Discurso profético no Monte das Oliveiras",
+      "order": 125,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 24:1-51",
+        "marcos": "Mc 13:1-37",
+        "lucas": "Lc 21:5-36",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola das dez virgens",
+      "order": 126,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 25:1-13",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Parábola dos talentos",
+      "order": 127,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 25:14-30",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "A separação das ovelhas e dos bodes",
+      "order": 128,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 25:31-46",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Gregos procuram Jesus e ele fala sobre sua morte",
+      "order": 129,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 12:20-36"
+      }
+    },
+    {
+      "event": "Resumo da incredulidade e do julgamento pela palavra",
+      "order": 130,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 12:37-50"
+      }
+    },
+    {
+      "event": "Conspiração para matar Jesus",
+      "order": 131,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 26:1-5",
+        "marcos": "Mc 14:1-2",
+        "lucas": "Lc 22:1-2",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Judas combina a traição",
+      "order": 132,
+      "phase": "Semana da Paixão",
+      "references": {
+        "mateus": "Mt 26:14-16",
+        "marcos": "Mc 14:10-11",
+        "lucas": "Lc 22:3-6",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus preparou a última Páscoa",
+      "order": 133,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "Mt 26:17-19",
+        "marcos": "Mc 14:12-16",
+        "lucas": "Lc 22:7-13",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Cristo lavou os pés dos discípulos",
+      "order": 134,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 13:1-20"
+      }
+    },
+    {
+      "event": "Jesus revelou o traidor",
+      "order": 135,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "Mt 26:21-25",
+        "marcos": "Mc 14:17-21",
+        "lucas": "Lc 22:21-23",
+        "joao": "Jo 13:21-30"
+      }
+    },
+    {
+      "event": "Cristo instituiu a Ceia do Senhor",
+      "order": 136,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "Mt 26:26-29",
+        "marcos": "Mc 14:22-25",
+        "lucas": "Lc 22:14-20",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus prediz a negação de Pedro",
+      "order": 137,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "Mt 26:30-35",
+        "marcos": "Mc 14:26-31",
+        "lucas": "Lc 22:31-34",
+        "joao": "Jo 13:36-38"
+      }
+    },
+    {
+      "event": "Novo mandamento e discurso de despedida",
+      "order": 138,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 13:31–14:31"
+      }
+    },
+    {
+      "event": "Cristo é a videira verdadeira",
+      "order": 139,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 15:1-27"
+      }
+    },
+    {
+      "event": "Jesus ensinou sobre o Espírito Santo",
+      "order": 140,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 16:1-33"
+      }
+    },
+    {
+      "event": "Oração sacerdotal de Cristo",
+      "order": 141,
+      "phase": "Última Ceia e discursos de despedida",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 17:1-26"
+      }
+    },
+    {
+      "event": "Jesus ora no Getsêmani",
+      "order": 142,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 26:36-46",
+        "marcos": "Mc 14:32-42",
+        "lucas": "Lc 22:39-46",
+        "joao": "Jo 18:1"
+      }
+    },
+    {
+      "event": "Cristo foi traído por Judas",
+      "order": 143,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 26:47-56",
+        "marcos": "Mc 14:43-52",
+        "lucas": "Lc 22:47-53",
+        "joao": "Jo 18:1-11"
+      }
+    },
+    {
+      "event": "Jesus foi levado ao sumo sacerdote",
+      "order": 144,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 26:57-68",
+        "marcos": "Mc 14:53-65",
+        "lucas": "Lc 22:54-65",
+        "joao": "Jo 18:12-24"
+      }
+    },
+    {
+      "event": "Pedro nega Jesus",
+      "order": 145,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 26:69-75",
+        "marcos": "Mc 14:66-72",
+        "lucas": "Lc 22:54-62",
+        "joao": "Jo 18:15-18,25-27"
+      }
+    },
+    {
+      "event": "Cristo diante do Sinédrio",
+      "order": 146,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:1-2",
+        "marcos": "Mc 15:1",
+        "lucas": "Lc 22:66-71",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Judas devolve as moedas e morre",
+      "order": 147,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:3-10",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus diante de Pilatos e Herodes",
+      "order": 148,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:11-31",
+        "marcos": "Mc 15:2-20",
+        "lucas": "Lc 23:1-25",
+        "joao": "Jo 18:28–19:16"
+      }
+    },
+    {
+      "event": "Cristo carregou sua cruz",
+      "order": 149,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:31-32",
+        "marcos": "Mc 15:20-21",
+        "lucas": "Lc 23:26-32",
+        "joao": "Jo 19:16-17"
+      }
+    },
+    {
+      "event": "Jesus foi crucificado",
+      "order": 150,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:33-44",
+        "marcos": "Mc 15:22-32",
+        "lucas": "Lc 23:33-43",
+        "joao": "Jo 19:18-27"
+      }
+    },
+    {
+      "event": "Cristo morreu",
+      "order": 151,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:45-56",
+        "marcos": "Mc 15:33-41",
+        "lucas": "Lc 23:44-49",
+        "joao": "Jo 19:28-30"
+      }
+    },
+    {
+      "event": "O lado de Jesus é perfurado",
+      "order": 152,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 19:31-37"
+      }
+    },
+    {
+      "event": "Jesus foi sepultado",
+      "order": 153,
+      "phase": "Prisão, julgamento e crucificação",
+      "references": {
+        "mateus": "Mt 27:57-66",
+        "marcos": "Mc 15:42-47",
+        "lucas": "Lc 23:50-56",
+        "joao": "Jo 19:38-42"
+      }
+    },
+    {
+      "event": "As mulheres encontram o túmulo vazio",
+      "order": 154,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "Mt 28:1-8",
+        "marcos": "Mc 16:1-8",
+        "lucas": "Lc 24:1-12",
+        "joao": "Jo 20:1-2"
+      }
+    },
+    {
+      "event": "Pedro e João correram ao túmulo",
+      "order": 155,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 20:3-10"
+      }
+    },
+    {
+      "event": "Jesus aparece a Maria Madalena",
+      "order": 156,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 16:9-11",
+        "lucas": "",
+        "joao": "Jo 20:11-18"
+      }
+    },
+    {
+      "event": "Os guardas relataram aos principais sacerdotes",
+      "order": 157,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "Mt 28:11-15",
+        "marcos": "",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus aparece no caminho de Emaús",
+      "order": 158,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 16:12-13",
+        "lucas": "Lc 24:13-35",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Jesus aparece aos discípulos sem Tomé",
+      "order": 159,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 16:14",
+        "lucas": "Lc 24:36-49",
+        "joao": "Jo 20:19-23"
+      }
+    },
+    {
+      "event": "Jesus aparece aos discípulos com Tomé",
+      "order": 160,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 20:24-29"
+      }
+    },
+    {
+      "event": "Jesus aparece junto ao mar de Tiberíades",
+      "order": 161,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "",
+        "lucas": "",
+        "joao": "Jo 21:1-23"
+      }
+    },
+    {
+      "event": "Jesus encontra os discípulos na Galileia e dá a Grande Comissão",
+      "order": 162,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "Mt 28:16-20",
+        "marcos": "Mc 16:15-18",
+        "lucas": "",
+        "joao": ""
+      }
+    },
+    {
+      "event": "Ascensão de Jesus",
+      "order": 163,
+      "phase": "Ressurreição e ascensão",
+      "references": {
+        "mateus": "",
+        "marcos": "Mc 16:19-20",
+        "lucas": "Lc 24:50-53",
+        "joao": ""
+      }
+    }
+  ]
+}

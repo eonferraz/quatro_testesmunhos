@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "eventCount": 163,
+  "uniqueVerseCount": 3522,
+  "referenceOccurrenceCount": 3637,
+  "missingVerseCount": 0,
+  "books": {
+    "mateus": {
+      "uniqueVerses": 972
+    },
+    "marcos": {
+      "uniqueVerses": 644
+    },
+    "lucas": {
+      "uniqueVerses": 1038
+    },
+    "joao": {
+      "uniqueVerses": 868
+    }
+  },
+  "checks": [
+    "Todos os eventos preservam references.",
+    "Toda referência não vazia possui passages.",
+    "Todos os versículos referenciados possuem texto.",
+    "A ordem original dos 163 eventos foi preservada.",
+    "Os textos foram incorporados sem truncamento visual ou line-clamp."
+  ]
+}
